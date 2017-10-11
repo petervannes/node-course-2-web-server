@@ -5,7 +5,7 @@ const fs = require('fs');
 
 
 
-const maintenance = true;
+const maintenance = false;
 
 var app = express();
 hbs.registerPartials(`${__dirname}/views/partials`)
